@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {};
+objectVersion = 56;
+objects = {
+
+/* Begin PBXBuildFile section */
+B02F1C8D27A5E7B400000010 /* BillsAgentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F1C8D27A5E7B400000009 /* BillsAgentApp.swift */; };
+B02F1C8D27A5E7B400000011 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F1C8D27A5E7B400000012 /* Bill.swift */; };
+B02F1C8D27A5E7B400000013 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F1C8D27A5E7B400000014 /* ChatMessage.swift */; };
+B02F1C8D27A5E7B400000015 /* BillsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F1C8D27A5E7B400000016 /* BillsAPI.swift */; };
+B02F1C8D27A5E7B400000017 /* BillsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F1C8D27A5E7B400000018 /* BillsViewModel.swift */; };
+B02F1C8D27A5E7B400000019 /* BillsChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F1C8D27A5E7B40000001A /* BillsChatViewModel.swift */; };
+B02F1C8D27A5E7B40000001B /* PushManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F1C8D27A5E7B40000001C /* PushManager.swift */; };
+B02F1C8D27A5E7B40000001D /* BillsDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F1C8D27A5E7B40000001E /* BillsDashboardView.swift */; };
+B02F1C8D27A5E7B40000001F /* BillFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F1C8D27A5E7B400000020 /* BillFormView.swift */; };
+B02F1C8D27A5E7B400000021 /* BillsChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F1C8D27A5E7B400000022 /* BillsChatView.swift */; };
+B02F1C8D27A5E7B400000023 /* Date+MonthKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F1C8D27A5E7B400000024 /* Date+MonthKey.swift */; };
+B02F1C8D27A5E7B400000025 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F1C8D27A5E7B400000026 /* Formatters.swift */; };
+B02F1C8D27A5E7B400000027 /* ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F1C8D27A5E7B400000028 /* ErrorInfo.swift */; };
+B02F1C8D27A5E7B400000029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02F1C8D27A5E7B40000002A /* Assets.xcassets */; };
+B02F1C8D27A5E7B40000002B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02F1C8D27A5E7B40000002C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+B02F1C8D27A5E7B400000008 /* BillsAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillsAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+B02F1C8D27A5E7B400000009 /* BillsAgentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsAgentApp.swift; sourceTree = "<group>"; };
+B02F1C8D27A5E7B400000012 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+B02F1C8D27A5E7B400000014 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+B02F1C8D27A5E7B400000016 /* BillsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsAPI.swift; sourceTree = "<group>"; };
+B02F1C8D27A5E7B400000018 /* BillsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsViewModel.swift; sourceTree = "<group>"; };
+B02F1C8D27A5E7B40000001A /* BillsChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsChatViewModel.swift; sourceTree = "<group>"; };
+B02F1C8D27A5E7B40000001C /* PushManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushManager.swift; sourceTree = "<group>"; };
+B02F1C8D27A5E7B40000001E /* BillsDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsDashboardView.swift; sourceTree = "<group>"; };
+B02F1C8D27A5E7B400000020 /* BillFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillFormView.swift; sourceTree = "<group>"; };
+B02F1C8D27A5E7B400000022 /* BillsChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsChatView.swift; sourceTree = "<group>"; };
+B02F1C8D27A5E7B400000024 /* Date+MonthKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+MonthKey.swift"; sourceTree = "<group>"; };
+B02F1C8D27A5E7B400000026 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+B02F1C8D27A5E7B400000028 /* ErrorInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorInfo.swift; sourceTree = "<group>"; };
+B02F1C8D27A5E7B40000002A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+B02F1C8D27A5E7B40000002C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+B02F1C8D27A5E7B40000002D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+B02F1C8D27A5E7B400000003 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+B02F1C8D27A5E7B400000006 = {
+isa = PBXGroup;
+children = (
+B02F1C8D27A5E7B400000009 /* BillsAgentApp.swift */,
+B02F1C8D27A5E7B40000002E /* Models */,
+B02F1C8D27A5E7B40000002F /* Services */,
+B02F1C8D27A5E7B400000030 /* ViewModels */,
+B02F1C8D27A5E7B400000031 /* Views */,
+B02F1C8D27A5E7B400000032 /* Support */,
+B02F1C8D27A5E7B400000033 /* Resources */,
+B02F1C8D27A5E7B400000007 /* Products */,
+);
+name = BillsAgent;
+path = "";
+sourceTree = "<group>";
+};
+B02F1C8D27A5E7B400000007 /* Products */ = {
+isa = PBXGroup;
+children = (
+B02F1C8D27A5E7B400000008 /* BillsAgent.app */,
+);
+name = Products;
+sourceTree = "<group>";
+};
+B02F1C8D27A5E7B40000002E /* Models */ = {
+isa = PBXGroup;
+children = (
+B02F1C8D27A5E7B400000012 /* Bill.swift */,
+B02F1C8D27A5E7B400000014 /* ChatMessage.swift */,
+);
+path = Models;
+sourceTree = "<group>";
+};
+B02F1C8D27A5E7B40000002F /* Services */ = {
+isa = PBXGroup;
+children = (
+B02F1C8D27A5E7B400000016 /* BillsAPI.swift */,
+);
+path = Services;
+sourceTree = "<group>";
+};
+B02F1C8D27A5E7B400000030 /* ViewModels */ = {
+isa = PBXGroup;
+children = (
+B02F1C8D27A5E7B400000018 /* BillsViewModel.swift */,
+B02F1C8D27A5E7B40000001A /* BillsChatViewModel.swift */,
+B02F1C8D27A5E7B40000001C /* PushManager.swift */,
+);
+path = ViewModels;
+sourceTree = "<group>";
+};
+B02F1C8D27A5E7B400000031 /* Views */ = {
+isa = PBXGroup;
+children = (
+B02F1C8D27A5E7B40000001E /* BillsDashboardView.swift */,
+B02F1C8D27A5E7B400000020 /* BillFormView.swift */,
+B02F1C8D27A5E7B400000022 /* BillsChatView.swift */,
+);
+path = Views;
+sourceTree = "<group>";
+};
+B02F1C8D27A5E7B400000032 /* Support */ = {
+isa = PBXGroup;
+children = (
+B02F1C8D27A5E7B400000024 /* Date+MonthKey.swift */,
+B02F1C8D27A5E7B400000026 /* Formatters.swift */,
+B02F1C8D27A5E7B400000028 /* ErrorInfo.swift */,
+);
+path = Support;
+sourceTree = "<group>";
+};
+B02F1C8D27A5E7B400000033 /* Resources */ = {
+isa = PBXGroup;
+children = (
+B02F1C8D27A5E7B40000002A /* Assets.xcassets */,
+B02F1C8D27A5E7B40000002C /* LaunchScreen.storyboard */,
+B02F1C8D27A5E7B40000002D /* Info.plist */,
+);
+path = Resources;
+sourceTree = "<group>";
+};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+B02F1C8D27A5E7B400000002 /* BillsAgent */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = B02F1C8D27A5E7B400000036 /* Build configuration list for PBXNativeTarget "BillsAgent" */;
+buildPhases = (
+B02F1C8D27A5E7B400000003 /* Frameworks */,
+B02F1C8D27A5E7B400000004 /* Sources */,
+B02F1C8D27A5E7B400000005 /* Resources */,
+);
+buildRules = (
+);
+dependencies = (
+);
+name = BillsAgent;
+productName = BillsAgent;
+productReference = B02F1C8D27A5E7B400000008 /* BillsAgent.app */;
+productType = "com.apple.product-type.application";
+};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+B02F1C8D27A5E7B400000001 /* Project object */ = {
+isa = PBXProject;
+attributes = {
+BuildIndependentTargetsInParallel = 1;
+LastSwiftUpdateCheck = 1500;
+LastUpgradeCheck = 1500;
+ORGANIZATIONNAME = "";
+TargetAttributes = {
+B02F1C8D27A5E7B400000002 = {
+CreatedOnToolsVersion = 15.0;
+};
+};
+};
+buildConfigurationList = B02F1C8D27A5E7B400000034 /* Build configuration list for PBXProject "BillsAgent" */;
+compatibilityVersion = "Xcode 15.0";
+developmentRegion = en;
+hasScannedForEncodings = 0;
+knownRegions = (
+en,
+);
+mainGroup = B02F1C8D27A5E7B400000006;
+productRefGroup = B02F1C8D27A5E7B400000007 /* Products */;
+projectDirPath = "";
+projectRoot = "";
+targets = (
+B02F1C8D27A5E7B400000002 /* BillsAgent */,
+);
+};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+B02F1C8D27A5E7B400000005 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+B02F1C8D27A5E7B400000029 /* Assets.xcassets in Resources */,
+B02F1C8D27A5E7B40000002B /* LaunchScreen.storyboard in Resources */,
+); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+B02F1C8D27A5E7B400000004 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+B02F1C8D27A5E7B400000010 /* BillsAgentApp.swift in Sources */,
+B02F1C8D27A5E7B400000011 /* Bill.swift in Sources */,
+B02F1C8D27A5E7B400000013 /* ChatMessage.swift in Sources */,
+B02F1C8D27A5E7B400000015 /* BillsAPI.swift in Sources */,
+B02F1C8D27A5E7B400000017 /* BillsViewModel.swift in Sources */,
+B02F1C8D27A5E7B400000019 /* BillsChatViewModel.swift in Sources */,
+B02F1C8D27A5E7B40000001B /* PushManager.swift in Sources */,
+B02F1C8D27A5E7B40000001D /* BillsDashboardView.swift in Sources */,
+B02F1C8D27A5E7B40000001F /* BillFormView.swift in Sources */,
+B02F1C8D27A5E7B400000021 /* BillsChatView.swift in Sources */,
+B02F1C8D27A5E7B400000023 /* Date+MonthKey.swift in Sources */,
+B02F1C8D27A5E7B400000025 /* Formatters.swift in Sources */,
+B02F1C8D27A5E7B400000027 /* ErrorInfo.swift in Sources */,
+); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+B02F1C8D27A5E7B400000035 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CODE_SIGN_IDENTITY = "Apple Development";
+CODE_SIGN_STYLE = Automatic;
+COPY_PHASE_STRIP = NO;
+DEBUG_INFORMATION_FORMAT = dwarf;
+ENABLE_NS_ASSERTIONS = YES;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+ENABLE_TESTABILITY = YES;
+GCC_C_LANGUAGE_STANDARD = gnu17;
+GCC_DYNAMIC_NO_PIC = NO;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_OPTIMIZATION_LEVEL = 0;
+GCC_PREPROCESSOR_DEFINITIONS = (
+"DEBUG=1",
+"$(inherited)",
+);
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+ONLY_ACTIVE_ARCH = YES;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SDKROOT = iphoneos;
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+SWIFT_VERSION = 5.0;
+};
+name = Debug;
+};
+B02F1C8D27A5E7B400000037 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CODE_SIGN_IDENTITY = "Apple Development";
+CODE_SIGN_STYLE = Automatic;
+COPY_PHASE_STRIP = NO;
+DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+ENABLE_NS_ASSERTIONS = NO;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+GCC_C_LANGUAGE_STANDARD = gnu17;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+MTL_ENABLE_DEBUG_INFO = NO;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SDKROOT = iphoneos;
+SWIFT_OPTIMIZATION_LEVEL = "-O";
+SWIFT_VERSION = 5.0;
+};
+name = Release;
+};
+B02F1C8D27A5E7B400000038 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_ASSET_PATHS = "";
+DEVELOPMENT_TEAM = "";
+GENERATE_INFOPLIST_FILE = NO;
+INFOPLIST_FILE = BillsAgent/Resources/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+LD_RUNPATH_SEARCH_PATHS = (
+"$(inherited)",
+"@executable_path/Frameworks",
+);
+MARKETING_VERSION = 1.0;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.BillsAgent;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Debug;
+};
+B02F1C8D27A5E7B400000039 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_ASSET_PATHS = "";
+DEVELOPMENT_TEAM = "";
+GENERATE_INFOPLIST_FILE = NO;
+INFOPLIST_FILE = BillsAgent/Resources/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+LD_RUNPATH_SEARCH_PATHS = (
+"$(inherited)",
+"@executable_path/Frameworks",
+);
+MARKETING_VERSION = 1.0;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.BillsAgent;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Release;
+};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+B02F1C8D27A5E7B400000034 /* Build configuration list for PBXProject "BillsAgent" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+B02F1C8D27A5E7B400000035 /* Debug */,
+B02F1C8D27A5E7B400000037 /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+B02F1C8D27A5E7B400000036 /* Build configuration list for PBXNativeTarget "BillsAgent" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+B02F1C8D27A5E7B400000038 /* Debug */,
+B02F1C8D27A5E7B400000039 /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+/* End XCConfigurationList section */
+
+};
+rootObject = B02F1C8D27A5E7B400000001 /* Project object */;
+}
