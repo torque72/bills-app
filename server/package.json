@@ -1,0 +1,14 @@
+{
+  "name": "bills-api",
+  "version": "1.0.0",
+  "description": "Bills manager API with OpenAI-powered assistant and Expo push notifications",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

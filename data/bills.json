@@ -1,0 +1,27 @@
+{
+  "bills": [
+    {
+      "id": "rent",
+      "name": "Rent",
+      "dueDay": 1,
+      "amount": 1400,
+      "notes": "Downtown apartment"
+    },
+    {
+      "id": "internet",
+      "name": "Internet",
+      "dueDay": 12,
+      "amount": 65,
+      "notes": "Fiber 1Gbps"
+    },
+    {
+      "id": "utilities",
+      "name": "Utilities",
+      "dueDay": 20,
+      "amount": 140,
+      "notes": "Water & electric"
+    }
+  ],
+  "payments": {},
+  "pushTokens": []
+}
